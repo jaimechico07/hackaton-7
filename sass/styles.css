@@ -539,7 +539,6 @@ button {
   font-size: 20px;
 }
 
-/*breakpoints*/
 @media (max-width: 800px) {
   header {
     width: 100%;
@@ -547,8 +546,8 @@ button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
   }
   .menu {
@@ -559,8 +558,8 @@ button {
     padding: 30px;
     height: 200px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   /*titulo*/
   .titulo-container span {
@@ -580,10 +579,10 @@ button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
   }
   .texto,
@@ -594,14 +593,14 @@ button {
   .popular-container {
     display: inline-block;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     height: 1500px;
   }
   .popular-container-title {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     text-align: center;
     height: 1500px;
   }
@@ -615,8 +614,8 @@ button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   /*articles-popular*/
   .article-container {
@@ -624,10 +623,10 @@ button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 100%;
   }
   .article-container h3 {

@@ -424,3 +424,137 @@ button {
   color: rgba(117, 182, 238, 0.89);
   font-size: 20px;
 }
+
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu {
+    height: 200px;
+  }
+  .menu-barra {
+    display: inline-block;
+    padding: 30px;
+    height: 200px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /*titulo*/
+  .titulo-container span {
+    min-width: 300px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .titulo-container h1 {
+    font-size: 2.3rem;
+  }
+  /*subtitulo*/
+  .subtitulo {
+    height: 1200px;
+  }
+  .subtitulo-centrado-relleno {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .texto,
+  p {
+    text-align: left;
+  }
+  /*articles*/
+  .popular-container {
+    display: inline-block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    height: 1500px;
+  }
+  .popular-container-title {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 1500px;
+  }
+  .popular-container-title h3 {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .container-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /*articles-popular*/
+  .article-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .article-container h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  .post-1 {
+    width: 70%;
+  }
+  /*contacto*/
+  .contact-container {
+    display: inline;
+    padding: 100px;
+  }
+  .contact-container-text {
+    margin: 70px 0px;
+  }
+  .contact-container-text h3 {
+    font-size: 3rem;
+  }
+  .contact-container-text span {
+    width: 60%;
+    font-size: 1.5rem;
+  }
+  .contact2-container {
+    width: 100%;
+    display: block;
+    height: 1450px;
+  }
+  .line-web-2 {
+    width: 100%;
+  }
+  .contact-container {
+    border-radius: 0px 500px 0px 0px;
+  }
+  .contact2-container-text p,
+  h3 {
+    width: 60%;
+    margin: 30px;
+    font-size: 1.4rem;
+  }
+}
